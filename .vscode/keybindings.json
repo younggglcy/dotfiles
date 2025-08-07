@@ -1,0 +1,9 @@
+// Place your key bindings in this file to override the defaults
+[
+  // let cmd+i still be code intelligence
+  // I'd like to arouse inline chat using cmd+k+i
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat.start",
+  }
+]
