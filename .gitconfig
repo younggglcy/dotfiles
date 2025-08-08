@@ -1,0 +1,15 @@
+[user]
+        # name =
+        # email =
+        # signingkey =
+[pull]
+        rebase = true
+[push]
+        autoSetupRemote = true
+[gpg]
+        format = ssh
+[core]
+        symlinks = true
+        quotepath = true
+[includeIf "gitdir:some_other_path/"]
+        path = .gitconfig_some_other_path

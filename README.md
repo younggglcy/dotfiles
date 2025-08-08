@@ -14,3 +14,7 @@
   - [.vscode/settings.json](./.vscode/settings.json)
   
     Custom User settings, execute `Preferences: Open User Settings (JSON)` in VS Code, and then add this files' contents
+
+- [.gitconfig](./.gitconfig)
+
+  Git configuration file
