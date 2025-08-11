@@ -110,4 +110,26 @@
   "javascript.inlayHints.parameterNames.enabled": "all",
 
   // Extension configs below
+  "gitlens.views.commits.files.layout": "tree",
+  "gitlens.views.commits.showStashes": true,
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "fileHistory": false,
+    "repositories": true,
+    "searchAndCompare": true,
+    "launchpad": false
+  },
+  "gitlens.home.preview.enabled": false,
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "remoteBranches",
+    "tags"
+  ],
 }
