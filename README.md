@@ -1,5 +1,11 @@
 # younggglcy's Dotfiles
 
+- [.config](./.config)
+
+  - [.config/husky/init.sh](./.config/husky/init.sh)
+  
+    [Husky](https://typicode.github.io/husky/) startup file
+
 - [.vscode](./.vscode)
 
   My VS Code user configuration preference
