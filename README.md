@@ -1,9 +1,5 @@
 # younggglcy's Dotfiles
 
-- [.zshrc](./.zshrc)
-
-  Zsh configuration file for [Oh My Zsh](https://ohmyz.sh/), with customizations inspired by [antfu's dotfiles](https://github.com/antfu/dotfiles)
-
 - [.vscode](./.vscode)
 
   My VS Code user configuration preference
@@ -18,3 +14,11 @@
 - [.gitconfig](./.gitconfig)
 
   Git configuration file
+
+- [.vimrc](./.vimrc)
+
+  Vim configuration file
+
+- [.zshrc](./.zshrc)
+
+  Zsh configuration file for [Oh My Zsh](https://ohmyz.sh/), with customizations inspired by [antfu's dotfiles](https://github.com/antfu/dotfiles)
