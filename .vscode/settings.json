@@ -18,8 +18,9 @@
 
   // Editor
   "editor.aiStats.enabled": true,
-  "editor.fontFamily": "Input Mono, Fira Code, monospace",
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
+  // https://github.com/subframe7536/maple-font
+  "editor.fontFamily": "Maple Mono NF, Input Mono, Fira Code, monospace",
+  "editor.fontLigatures": "'cv01', 'ss01', 'ss02', 'ss04', 'ss06'",
   "editor.accessibilitySupport": "off",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.find.addExtraSpaceOnTop": false,
