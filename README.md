@@ -21,6 +21,10 @@
 
   Git configuration file
 
+- [.simple-git-hooks.rc](./.simple-git-hooks.rc)
+
+  RC file for [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)
+
 - [.vimrc](./.vimrc)
 
   Vim configuration file

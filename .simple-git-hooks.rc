@@ -1,0 +1,5 @@
+# Ensure this script runs in a zsh environment
+echo "running '$SIMPLE_GIT_HOOKS_RC' file"
+if ! [ -z "$ZSH_VERSION" ]; then
+  exec zsh
+fi
