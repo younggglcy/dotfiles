@@ -35,6 +35,7 @@ alias cb="cargo build"
 alias cr="cargo run"
 alias ct="cargo test"
 alias cf="cargo fmt"
+alias cl="cargo clippy"
 
 function addFolderToPath() {
   if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
