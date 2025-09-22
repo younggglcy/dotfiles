@@ -42,6 +42,9 @@
   },
   "editor.unicodeHighlight.ambiguousCharacters": false,
 
+  // Chat
+  "chat.agent.maxRequests": 1000,
+
   // Explorer
   "explorer.confirmDelete": false,
   "explorer.confirmPasteNative": false,
