@@ -111,6 +111,10 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file"
   },
+  "[swift]": {
+    "editor.defaultFormatter": "vknabel.vscode-apple-swift-format",
+    "editor.formatOnSave": true,
+  },
   "typescript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.parameterNames.enabled": "all",
 
