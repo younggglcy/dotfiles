@@ -49,6 +49,13 @@ function addFolderToPath() {
 HOME_BIN_DIR="$HOME/bin"
 addFolderToPath "$HOME_BIN_DIR"
 
+# golang
+GO_PATH="/usr/local/go/bin"
+addFolderToPath "$GO_PATH"
+
+HOME_GO_BIN_DIR="$HOME/go/bin"
+addFolderToPath "$HOME_GO_BIN_DIR"
+
 function i() {
   cd ~/projects/$1
 }
