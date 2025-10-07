@@ -37,8 +37,8 @@ alias ct="cargo test"
 alias cf="cargo fmt"
 alias cl="cargo clippy"
 
-# npm simple-git-hooks https://github.com/toplenboren/simple-git-hooks
-export SIMPLE_GIT_HOOKS_RC="$HOME/.simple-git-hooks.rc"
+# [Deprecated] npm simple-git-hooks https://github.com/toplenboren/simple-git-hooks
+# export SIMPLE_GIT_HOOKS_RC="$HOME/.simple-git-hooks.rc"
 
 function addFolderToPath() {
   if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then

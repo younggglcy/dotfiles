@@ -21,9 +21,12 @@
 
   Git configuration file
 
-- [.simple-git-hooks.rc](./.simple-git-hooks.rc)
+- ~~[.simple-git-hooks.rc](./.simple-git-hooks.rc)~~
 
-  RC file for [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)
+  ~~RC file for [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)~~
+
+  > [!WARNING]
+  > Deprecated, husky is more recommeded than simple-git-hooks
 
 - [.vimrc](./.vimrc)
 
