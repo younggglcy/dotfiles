@@ -6,10 +6,14 @@
         rebase = true
 [push]
         autoSetupRemote = true
+[commit]
+        # necessary to have if you want to sign commits with GPG or SSH keys
+        gpgsign = true
 [gpg]
         format = ssh
 [core]
         symlinks = true
         quotepath = true
+# the ending '/' character is necessary to have
 [includeIf "gitdir:some_other_path/"]
         path = .gitconfig_some_other_path
