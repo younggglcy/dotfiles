@@ -19,6 +19,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# bat https://github.com/sharkdp/bat
+alias cat='bat --paging=never'
+
 # nodejs
 alias nio="ni --prefer-offline"
 alias d="nr dev"
@@ -38,7 +41,7 @@ alias cf="cargo fmt"
 alias cl="cargo clippy"
 
 # [Deprecated] npm simple-git-hooks https://github.com/toplenboren/simple-git-hooks
-# export SIMPLE_GIT_HOOKS_RC="$HOME/.simple-git-hooks.rc"
+# export SIMPLE_GIT_HOOKS_RC="$HOME/.simplqe-git-hooks.rc"
 
 function addFolderToPath() {
   if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
