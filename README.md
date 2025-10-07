@@ -25,8 +25,8 @@
 
   ~~RC file for [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)~~
 
-  > [!WARNING]
-  > Deprecated, husky is more recommeded than simple-git-hooks
+> [!WARNING]
+> Deprecated since husky is more recommeded than simple-git-hooks
 
 - [.vimrc](./.vimrc)
 
