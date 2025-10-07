@@ -29,6 +29,7 @@ alias b="nr build"
 alias t="nr test"
 alias lint="nr lint"
 alias lintf="nr lint --fix"
+alias re="nr release"
 
 # fnm
 eval "$(fnm env --use-on-cd --shell zsh)"
