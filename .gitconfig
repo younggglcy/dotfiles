@@ -9,6 +9,8 @@
 [commit]
         # necessary to have if you want to sign commits with GPG or SSH keys
         gpgsign = true
+[tag]
+        gpgsign = true
 [gpg]
         format = ssh
 [core]
