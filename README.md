@@ -6,6 +6,12 @@
   
     [Husky](https://typicode.github.io/husky/) startup file
 
+- [.ssh](./.ssh)
+  
+  - [.ssh/config](./.ssh/config)
+
+  SSH client configuration
+
 - [.vscode](./.vscode)
 
   My VS Code user configuration preference
