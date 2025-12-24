@@ -44,6 +44,7 @@
 
   // Chat
   "chat.agent.maxRequests": 1000,
+  "chat.useClaudeSkills": true,
 
   // Explorer
   "explorer.confirmDelete": false,
