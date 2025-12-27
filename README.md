@@ -1,5 +1,12 @@
 # younggglcy's Dotfiles
 
+- [.claude](./.claude)
+  - [.claude/skills](./.claude/skills/)
+
+  [What are Skills](https://support.claude.com/en/articles/12512176-what-are-skills)
+
+  From https://github.com/anthropics/skills and https://github.com/ComposioHQ/awesome-claude-skills
+
 - [.config](./.config)
 
   - [.config/husky/init.sh](./.config/husky/init.sh)
