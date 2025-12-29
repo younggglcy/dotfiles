@@ -44,7 +44,10 @@
 
   // Chat
   "chat.agent.maxRequests": 1000,
+  // https://code.visualstudio.com/docs/copilot/customization/agent-skills
   "chat.useClaudeSkills": true,
+  "chat.useAgentSkills": true,
+  "chat.viewSessions.orientation": "stacked",
 
   // Explorer
   "explorer.confirmDelete": false,
