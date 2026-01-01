@@ -114,6 +114,14 @@
 
   // Debug
   "debug.onTaskErrors": "debugAnyway",
+  // https://vite.dev/config/#debugging-the-config-file-on-vs-code
+  "debug.javascript.terminalOptions": {
+    "resolveSourceMapLocations": [
+      "${workspaceFolder}/**",
+      "!**/node_modules/**",
+      "**/node_modules/.vite-temp/**"
+    ]
+  },
 
   // Diff Editor
   "diffEditor.ignoreTrimWhitespace": false,
