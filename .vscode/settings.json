@@ -91,6 +91,20 @@
       ]
     },
   },
+  "terminal.integrated.profiles.osx": {
+    "bash": null,
+    "zsh": {
+      "path": "zsh",
+    },
+    "codex": {
+      "path": "zsh",
+      "args": ["-l", "-c", "codex"]
+    },
+    "claude": {
+      "path": "zsh",
+      "args": ["-l", "-c", "claude"]
+    }
+  },
 
   // SCM (Source Control)
   "scm.diffDecorationsGutterWidth": 2,
