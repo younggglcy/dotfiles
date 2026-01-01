@@ -98,11 +98,13 @@
     },
     "codex": {
       "path": "zsh",
-      "args": ["-l", "-c", "codex"]
+      "args": ["-l", "-c", "codex"],
+      "overrideName": true,
     },
     "claude": {
       "path": "zsh",
-      "args": ["-l", "-c", "claude"]
+      "args": ["-l", "-c", "claude"],
+      "overrideName": true,
     }
   },
 
