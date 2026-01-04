@@ -98,12 +98,12 @@
     },
     "codex": {
       "path": "zsh",
-      "args": ["-i", "-l", "-c", "codex", "--yolo"],
+      "args": ["-i", "-l", "-c", "codex --yolo"],
       "overrideName": true,
     },
     "claude": {
       "path": "zsh",
-      "args": ["-i", "-l", "-c", "claude", "--dangerously-skip-permissions"],
+      "args": ["-i", "-l", "-c", "claude --dangerously-skip-permissions"],
       "overrideName": true,
     }
   },
