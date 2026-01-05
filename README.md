@@ -7,6 +7,11 @@
 
   From https://github.com/anthropics/skills and https://github.com/ComposioHQ/awesome-claude-skills
 
+- [.codex](./.codex)
+  - [.codex/agents.md](./.codex/agents.md)
+
+  See https://x.com/OnlyXuanwo/status/1996572217266811196
+
 - [.config](./.config)
 
   - [.config/husky/init.sh](./.config/husky/init.sh)
