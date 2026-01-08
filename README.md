@@ -5,7 +5,10 @@
 
   [What are Skills](https://support.claude.com/en/articles/12512176-what-are-skills)
 
-  From https://github.com/anthropics/skills and https://github.com/ComposioHQ/awesome-claude-skills
+  From:
+  - https://github.com/anthropics/skills
+  - https://github.com/ComposioHQ/awesome-claude-skills
+  - https://github.com/OthmanAdi/planning-with-files
 
 - [.codex](./.codex)
   - [.codex/agents.md](./.codex/agents.md)
