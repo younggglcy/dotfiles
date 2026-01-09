@@ -11,6 +11,9 @@
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none",
   "workbench.tree.expandMode": "singleClick",
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default",
+  },
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
