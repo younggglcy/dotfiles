@@ -1,19 +1,6 @@
 # younggglcy's Dotfiles
 
 - [.claude](./.claude)
-  - [.claude/skills](./.claude/skills/)
-
-  [What are Skills](https://support.claude.com/en/articles/12512176-what-are-skills)
-
-  From:
-  - https://github.com/anthropics/skills
-  - https://github.com/ComposioHQ/awesome-claude-skills
-  - https://github.com/OthmanAdi/planning-with-files
-
-- [.codex](./.codex)
-  - [.codex/agents.md](./.codex/agents.md)
-
-  See https://x.com/OnlyXuanwo/status/1996572217266811196
 
 - [.config](./.config)
 
@@ -56,3 +43,23 @@
 - [.zshrc](./.zshrc)
 
   Zsh configuration file for [Oh My Zsh](https://ohmyz.sh/), with customizations inspired by [antfu's dotfiles](https://github.com/antfu/dotfiles)
+
+## Claude Code Setup
+
+1. `curl -fsSL https://claude.ai/install.sh | bash`
+2. Wakatime plugin
+FYI: https://wakatime.com/claude-code
+`claude plugin marketplace add https://github.com/wakatime/claude-code-wakatime.git`
+`claude plugin i claude-code-wakatime@wakatime`
+3. `claude plugin marketplace add anthropics/claude-plugins-official`
+This should be added by default
+4. pick plugins from claude-plugins-official
+5. skills setup
+`/plugin marketplace add anthropics/skills`
+pick skills you like
+6. context7 mcp
+[context7](https://context7.com/)
+`claude mcp add --header "CONTEXT7_API_KEY: YOUR_API_KEY" --transport http context7 https://mcp.context7.com/mcp`
+7. github mcp
+open `~/.claude.json` and add user scope github mcp server like https://github.com/anthropics/claude-plugins-official/blob/main/external_plugins/github/.mcp.json
+8. https://github.com/OthmanAdi/planning-with-files

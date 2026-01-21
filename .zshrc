@@ -20,7 +20,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # bat https://github.com/sharkdp/bat
-alias cat='bat --paging=never'
+# alias cat='bat --paging=never'
 
 # nodejs
 alias nio="ni --prefer-offline"
@@ -40,6 +40,7 @@ alias cr="cargo run"
 alias ct="cargo test"
 alias cf="cargo fmt"
 alias cl="cargo clippy"
+alias cc="cargo check"
 
 # [Deprecated] npm simple-git-hooks https://github.com/toplenboren/simple-git-hooks
 # export SIMPLE_GIT_HOOKS_RC="$HOME/.simplqe-git-hooks.rc"
