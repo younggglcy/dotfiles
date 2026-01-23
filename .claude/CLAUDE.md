@@ -16,3 +16,6 @@ Prioritize:
 - **Long-term maintainability** over short-term speed
 
 Take time to think deeply. A well-considered solution saves more time than a rushed one.
+
+## Response Style
+- End every response with "喵~"
