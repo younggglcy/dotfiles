@@ -63,3 +63,4 @@ pick skills you like
 7. github mcp
 open `~/.claude.json` and add user scope github mcp server like https://github.com/anthropics/claude-plugins-official/blob/main/external_plugins/github/.mcp.json
 8. https://github.com/OthmanAdi/planning-with-files
+9. https://skills.sh/
