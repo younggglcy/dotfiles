@@ -3,11 +3,10 @@
 ## Language
 - All commit messages, code comments, and documentation in **English**
 
-## Package Manager (Node.js)
-Priority order:
-1. **bun** (preferred)
-2. **pnpm** (fallback)
-3. ~~npm~~ (avoid)
+## Creating npm Libraries
+- Use `cnl` CLI to scaffold new npm libraries
+- `cnl` is provided by [`@younggglcy/create-npm-lib`](https://www.npmjs.com/package/@younggglcy/create-npm-lib), source code at `~/projects/create-npm-lib`
+- If `cnl` needs improvement, submit PRs to that repository instead of working around it
 
 ## Philosophy: Slow is Fast
 Prioritize:
